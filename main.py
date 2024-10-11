@@ -35,7 +35,7 @@ try:
 
   # wait until the Assign button is clickable and then click it
     assign_button = WebDriverWait(driver, 10).until(
-    EC.element_to_be_clicked((By.XPATH, "//input[@value='Assign']"))
+    EC.element_to_be_clickable((By.XPATH, "//input[@value='Assign']"))
     )
     assign_button.click()
     time.sleep(60)

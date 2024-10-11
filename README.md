@@ -4,7 +4,9 @@
 
 1. ASP.Net Core Project containing API and code for invetory management system
    
-2. Python Selenium script file 
+2. Python Selenium script file
+
+3. Design Document detailing phases of the SDLC for the creation of selenium script. 
 
 ## Important 
 1. You must add products and categories to the database. At lease 3 of each.

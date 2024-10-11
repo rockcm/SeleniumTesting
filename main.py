@@ -21,7 +21,7 @@ driver.get(page_url)
 
 # locate the product element and click on it
 try:
-    #  finds all <a> tags and searches for elements whose href attribute contain 'Product/Details/1' failed initially but then works 
+    #  finds all <a> tags and searches for elements whose href attribute contain 'Product/Details/1' 
     product_Element = driver.find_element(By.XPATH, "//a[contains(@href, 'Product/Details/1')]") 
     product_Element.click()
     add_category_link = driver.find_element(By.LINK_TEXT, "Add Category")
